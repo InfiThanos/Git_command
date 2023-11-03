@@ -22,16 +22,16 @@ int main()
         switch (result)
         {
         case 1:
-            my_sum();
+            Sum();
             break;
         case 2:
             Sub();
             break;
         case 3:
-            cout << "Function in development" << endl;
+            Mul();
             break;
         case 4:
-            cout << "Function in development" << endl;
+            Div();
             break;
         default:
             cout << "Input error" << endl;
