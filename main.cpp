@@ -31,7 +31,7 @@ int main()
             cout << "Function in development" << endl;
             break;
         case 4:
-            cout << "Function in development" << endl;
+            Div();
             break;
         default:
             cout << "Input error" << endl;
