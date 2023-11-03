@@ -1,4 +1,6 @@
 #include <iostream>
+#include "funcs.h"
+
 using namespace std;
 
 int main()
@@ -20,10 +22,10 @@ int main()
         switch (result)
         {
         case 1:
-            cout << "Function in development" << endl;
+            my_sum();
             break;
         case 2:
-            cout << "Function in development" << endl;
+            Sub();
             break;
         case 3:
             cout << "Function in development" << endl;
