@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void my_sum()
+void Sum()
 {
     system("cls");
 
@@ -45,7 +45,7 @@ void Div()
              << endl << endl;
     }
 }
-void my_mul() // добавить реализацию в main
+void Mul() // добавить реализацию в main
 {
 	system("cls");
 
@@ -53,5 +53,6 @@ void my_mul() // добавить реализацию в main
 
     cout << "Enter a: "; cin >> a;
     cout << "Enter b: "; cin >> b;
-	cout << "a * b = " << a * b << endl;
+    cout << endl << "a * b = " << a * b
+         << endl << endl;
 }

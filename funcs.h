@@ -1,10 +1,10 @@
 #ifndef FUNCS
 #define FUNCS
 
-void my_sum();
+void Sum();
 void Sub();
 void Div();
-void my_mul();
+void Mul();
 
 #endif // FUNCS
 
