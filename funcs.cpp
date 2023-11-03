@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void my_sum() // реализацию добавить в main
+void my_sum()
 {
     system("cls");
 
@@ -11,7 +11,8 @@ void my_sum() // реализацию добавить в main
 
     cout << "Enter a: "; cin >> a;
     cout << "Enter b: "; cin >> b;
-    cout << "Sum of a and b is " << a + b << endl; // a + b = c
+    cout << endl << "a + b = " << a + b
+         << endl << endl;
 }
 
 void Sub()
@@ -20,10 +21,8 @@ void Sub()
 
     double a, b;
 
-    cout << "Enter a: ";
-    cin >> a;
-    cout << "Enter b: ";
-    cin >> b;
-    cout << endl << "a - b = " << a-b
+    cout << "Enter a: "; cin >> a;
+    cout << "Enter b: "; cin >> b;
+    cout << endl << "a - b = " << a - b
          << endl << endl;
 }
