@@ -1,4 +1,5 @@
 #include <iostream>
+#include "funcs.h"
 
 using namespace std;
 
@@ -24,7 +25,7 @@ int main()
             cout << "Function in development" << endl;
             break;
         case 2:
-            cout << "Function in development" << endl;
+            Sub();
             break;
         case 3:
             cout << "Function in development" << endl;
